@@ -69,11 +69,11 @@ const categories = [
         questions: [
             {
                 q: "What does the Pro plan include?",
-                a: "Pro ($6.99/month) includes everything in Free, plus unlimited squads, nearby player discovery, 'Open to Play' visibility, ability to join matches outside your squad, and priority support."
+                a: "Pro is $6.99/month or $49.99/year (with a 7-day free trial on annual). It adds the live score on your Lock Screen and Dynamic Island, the Next Match widget, Apple Health logging, Tennis Wrapped, your complete match history, unlimited squads and concurrent leagues, unlimited AI league planning, and spreadsheet import.",
             },
             {
                 q: "What is the Lifetime deal?",
-                a: "Pay $49 once and get all Pro features forever. No monthly fees. This is a special early adopter offer that includes all future premium updates. It's the best value if you plan to use TennisSquad long-term."
+                a: "Pay $99.99 once and get every Pro feature forever, including everything we add to Pro later. No renewals, ever.",
             },
             {
                 q: "How do I cancel my subscription?",
