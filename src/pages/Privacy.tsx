@@ -30,7 +30,7 @@ export default function Privacy() {
                             <ul className="list-disc pl-5 space-y-2">
                                 <li><strong className="text-text">Information You Provide:</strong> Name, email, profile photo, tennis profile data.</li>
                                 <li><strong className="text-text">Automatically Collected:</strong> Device info, usage data, crash logs.</li>
-                                <li><strong className="text-text">Location Data:</strong> Approximate location for nearby discovery (city-level). Precise location only if explicitly enabled.</li>
+                                <li><strong className="text-text">Location:</strong> We do not request or collect your location. Serve Coach video analysis runs on your device and is never uploaded.</li>
                             </ul>
                         </section>
                         <section>

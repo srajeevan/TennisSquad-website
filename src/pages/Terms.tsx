@@ -29,7 +29,7 @@ export default function Terms() {
                         </section>
                         <section>
                             <h2 className="text-xl font-bold text-text mb-3">2. Description of Service</h2>
-                            <p>TennisSquad helps tennis players organize matches, manage tennis groups ("Squads"), track rankings, and discover nearby players.</p>
+                            <p>TennisSquad helps tennis players organize matches, manage tennis groups ("Squads"), keep score, run leagues and track rankings.</p>
                         </section>
                         <section>
                             <h2 className="text-xl font-bold text-text mb-3">3. Eligibility</h2>

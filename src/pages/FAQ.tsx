@@ -29,7 +29,7 @@ const categories = [
             },
             {
                 q: "Is TennisSquad free?",
-                a: "Yes! The free plan includes all core features: match scheduling, availability tracking, ladder rankings, weekly challenges, and badges. Premium plans unlock additional features like nearby discovery and multi-squad support."
+                a: "Yes! The free plan includes all core features: match scheduling, availability tracking, ladder rankings, weekly challenges, and badges. Pro unlocks the live Lock Screen score, the Next Match widget, Apple Health logging, Tennis Wrapped, full match history, unlimited squads and leagues, AI league planning, and spreadsheet import."
             },
             {
                 q: "How do I create a squad?",

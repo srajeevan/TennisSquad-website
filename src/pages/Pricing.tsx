@@ -22,6 +22,8 @@ function FadeIn({ children, className = "", delay = 0 }: { children: React.React
 const plans = [
     {
         name: "Free",
+        icon: Zap,
+        color: "text-text-muted",
         price: "$0",
         period: "forever",
         description: "Everything a squad needs to play a whole season.",
@@ -36,10 +38,13 @@ const plans = [
             "Your last 10 matches",
         ],
         cta: "Coming Soon",
-        highlighted: false,
+        featured: false,
     },
     {
         name: "Pro",
+        icon: Crown,
+        color: "text-primary",
+        badge: "Most Popular",
         price: "$6.99",
         period: "/ month",
         altPrice: "or $49.99 / year — 7-day free trial on annual",
@@ -56,10 +61,13 @@ const plans = [
             "Import a season from a spreadsheet",
         ],
         cta: "Coming Soon",
-        highlighted: true,
+        featured: true,
     },
     {
         name: "Lifetime",
+        icon: Sparkles,
+        color: "text-accent-light",
+        badge: "One payment",
         price: "$99.99",
         period: "one-time",
         description: "All of Pro, forever. One payment, no renewals.",
@@ -69,7 +77,7 @@ const plans = [
             "All future Pro features included",
         ],
         cta: "Coming Soon",
-        highlighted: false,
+        featured: false,
     },
 ]
 
