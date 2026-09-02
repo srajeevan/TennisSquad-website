@@ -40,7 +40,7 @@ const plans = [
         cta: "Get Started Free",
     },
     {
-        name: "Explorer",
+        name: "Pro",
         price: "$6.99",
         period: "/ month",
         description: "For serious players expanding their network.",
@@ -69,7 +69,7 @@ const plans = [
         featured: false,
         badge: "Limited Time",
         features: [
-            "All Explorer features forever",
+            "All Pro features forever",
             "No monthly fees, ever",
             "Future premium updates included",
             "Early adopter badge",
@@ -80,18 +80,22 @@ const plans = [
 ]
 
 const comparisonFeatures = [
-    { name: "Squads", free: "1", explorer: "Unlimited", lifetime: "Unlimited" },
-    { name: "Members per Squad", free: "Unlimited", explorer: "Unlimited", lifetime: "Unlimited" },
-    { name: "Match Scheduling", free: true, explorer: true, lifetime: true },
-    { name: "Availability Heatmap", free: true, explorer: true, lifetime: true },
-    { name: "Ladder Rankings", free: true, explorer: true, lifetime: true },
-    { name: "Box League", free: true, explorer: true, lifetime: true },
-    { name: "Badges & Challenges", free: true, explorer: true, lifetime: true },
-    { name: "Nearby Discovery", free: false, explorer: true, lifetime: true },
-    { name: "Open to Play Status", free: false, explorer: true, lifetime: true },
-    { name: "Join Public Matches", free: false, explorer: true, lifetime: true },
-    { name: "Advanced Filters", free: false, explorer: true, lifetime: true },
-    { name: "Priority Support", free: false, explorer: true, lifetime: true },
+    { name: "Squads", free: "1", pro: "Unlimited", lifetime: "Unlimited" },
+    { name: "Members per Squad", free: "Unlimited", pro: "Unlimited", lifetime: "Unlimited" },
+    { name: "Match Scheduling", free: true, pro: true, lifetime: true },
+    { name: "Availability Heatmap", free: true, pro: true, lifetime: true },
+    { name: "Ladder Rankings", free: true, pro: true, lifetime: true },
+    { name: "Box League", free: true, pro: true, lifetime: true },
+    { name: "Badges & Challenges", free: true, pro: true, lifetime: true },
+    { name: "Live Activity & Dynamic Island score", free: false, pro: true, lifetime: true },
+    { name: "Next Match widget", free: false, pro: true, lifetime: true },
+    { name: "Apple Health logging", free: false, pro: true, lifetime: true },
+    { name: "Tennis Wrapped", free: false, pro: true, lifetime: true },
+    { name: "Complete match history", free: false, pro: true, lifetime: true },
+    { name: "Open to Play Status", free: false, pro: true, lifetime: true },
+    { name: "Join Public Matches", free: false, pro: true, lifetime: true },
+    { name: "Advanced Filters", free: false, pro: true, lifetime: true },
+    { name: "Priority Support", free: false, pro: true, lifetime: true },
 ]
 
 export default function Pricing() {
@@ -163,7 +167,7 @@ export default function Pricing() {
                                     </div>
 
                                     <a
-                                        href="https://apps.apple.com/us/app/tennissquad"
+                                        href="#notify"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className={`flex items-center justify-center w-full py-3 rounded-xl font-semibold text-sm transition-all active:scale-[0.97] ${
@@ -198,7 +202,7 @@ export default function Pricing() {
                                     <tr className="border-b border-border">
                                         <th className="py-4 px-5 font-medium text-text-muted text-sm">Feature</th>
                                         <th className="py-4 px-5 font-bold text-sm text-center">Free</th>
-                                        <th className="py-4 px-5 font-bold text-sm text-center text-primary">Explorer</th>
+                                        <th className="py-4 px-5 font-bold text-sm text-center text-primary">Pro</th>
                                         <th className="py-4 px-5 font-bold text-sm text-center">Lifetime</th>
                                     </tr>
                                 </thead>
@@ -207,7 +211,7 @@ export default function Pricing() {
                                         <tr key={i} className="border-b border-border/50 hover:bg-surface-light/30 transition-colors">
                                             <td className="py-3.5 px-5 text-sm font-medium">{row.name}</td>
                                             <td className="py-3.5 px-5 text-center">{renderValue(row.free)}</td>
-                                            <td className="py-3.5 px-5 text-center">{renderValue(row.explorer)}</td>
+                                            <td className="py-3.5 px-5 text-center">{renderValue(row.pro)}</td>
                                             <td className="py-3.5 px-5 text-center">{renderValue(row.lifetime)}</td>
                                         </tr>
                                     ))}

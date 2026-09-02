@@ -22,7 +22,7 @@ export function Footer() {
                             </span>
                         </Link>
                         <p className="text-text-muted text-sm leading-relaxed max-w-xs">
-                            The easiest way to organize matches, discover players, and compete with your local tennis community.
+                            The easiest way to keep score, run leagues, and organize matches with your tennis community.
                         </p>
                     </div>
 
@@ -32,7 +32,7 @@ export function Footer() {
                         <ul className="space-y-3 text-sm text-text-muted">
                             <li><Link to="/features" className="hover:text-primary transition-colors">Features</Link></li>
                             <li><Link to="/pricing" className="hover:text-primary transition-colors">Pricing</Link></li>
-                            <li><a href="https://apps.apple.com/us/app/tennissquad" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Download</a></li>
+                            <li><a href="#notify" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Download</a></li>
                         </ul>
                     </div>
 

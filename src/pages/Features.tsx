@@ -1,7 +1,7 @@
 import { useRef } from "react"
 import { Link } from "react-router-dom"
 import { motion, useInView } from "framer-motion"
-import { Users, Calendar, Trophy, MapPin, CheckCircle, ArrowRight, Swords, Award, Target, Shuffle, BarChart3, Bell } from "lucide-react"
+import { Users, Calendar, Trophy, CheckCircle, ArrowRight, Swords, Award, Target, Shuffle, BarChart3, Bell } from "lucide-react"
 
 function FadeIn({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
     const ref = useRef(null)
@@ -101,22 +101,22 @@ const mainFeatures = [
         image: "/screens/slide_07_boxleague.png",
     },
     {
-        id: "discovery",
-        icon: MapPin,
+        id: "scoring",
+        icon: Target,
         color: "text-cyan",
         bg: "bg-cyan/10",
-        title: "Nearby Discovery",
-        subtitle: "Expand Your Network",
-        description: "Find players and open matches near you. Your next hitting partner might be around the corner.",
+        title: "Live Scoring & Serve Coach",
+        subtitle: "Courtside, Not Desk-side",
+        description: "Keep score with full tennis rules — one tap a point, undo anything. Film a serve and get form analysis that runs entirely on your phone.",
         points: [
-            "Find players within 25 miles",
-            "Browse open matches nearby",
-            "'Open to Play' visibility status",
-            "Filter by skill level and distance",
-            "Guest spots for nearby players"
+            "Full rules: ad / no-ad, tiebreaks, best of 1, 3 or 5",
+            "Live score on the Lock Screen and Dynamic Island (Pro)",
+            "Serve Coach: on-device body-pose analysis",
+            "Nothing is uploaded — your video never leaves the phone",
+            "Undo any point, dispute any result"
         ],
-        image: "/screens/slide_02_discover.png",
-        badge: "Explorer Feature",
+        image: "/screens/slide_05_play.png",
+        badge: "Free",
     },
 ]
 
@@ -126,7 +126,8 @@ const additionalFeatures = [
     { icon: Shuffle, title: "Team Generator", desc: "One-tap fair team shuffling with skill-based balancing." },
     { icon: BarChart3, title: "Player Statistics", desc: "Track wins, losses, streaks, and career stats over time." },
     { icon: Bell, title: "Smart Notifications", desc: "Match reminders, challenge alerts, and squad updates." },
-    { icon: Users, title: "Score Recording", desc: "Record results with automatic ranking and stats integration." },
+    { icon: Users, title: "Team Leagues", desc: "Round robin, playoffs and champions with standings that update themselves." },
+    { icon: Bell, title: "Squad Chat & Subs", desc: "Match and league threads plus a one-tap “need a sub” broadcast." },
 ]
 
 export default function Features() {
@@ -243,7 +244,7 @@ export default function Features() {
                         <h2 className="text-3xl md:text-4xl font-black mb-6">Ready to upgrade your game?</h2>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
-                                href="https://apps.apple.com/us/app/tennissquad"
+                                href="#notify"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-primary text-background font-bold rounded-xl hover:bg-primary-muted transition-all hover:shadow-lg hover:shadow-primary/20 active:scale-[0.97]"

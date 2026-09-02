@@ -37,7 +37,7 @@ const categories = [
             },
             {
                 q: "How many people can join a squad?",
-                a: "There's no limit on the number of members per squad! Invite as many players as you want. The Free plan supports 1 squad, while Explorer and Lifetime plans give you unlimited squads."
+                a: "There's no limit on the number of members per squad! Invite as many players as you want. The Free plan supports 1 squad, while Pro and Lifetime plans give you unlimited squads."
             }
         ]
     },
@@ -68,12 +68,12 @@ const categories = [
         color: "text-accent-light",
         questions: [
             {
-                q: "What does the Explorer plan include?",
-                a: "Explorer ($6.99/month) includes everything in Free, plus unlimited squads, nearby player discovery, 'Open to Play' visibility, ability to join matches outside your squad, and priority support."
+                q: "What does the Pro plan include?",
+                a: "Pro ($6.99/month) includes everything in Free, plus unlimited squads, nearby player discovery, 'Open to Play' visibility, ability to join matches outside your squad, and priority support."
             },
             {
                 q: "What is the Lifetime deal?",
-                a: "Pay $49 once and get all Explorer features forever. No monthly fees. This is a special early adopter offer that includes all future premium updates. It's the best value if you plan to use TennisSquad long-term."
+                a: "Pay $49 once and get all Pro features forever. No monthly fees. This is a special early adopter offer that includes all future premium updates. It's the best value if you plan to use TennisSquad long-term."
             },
             {
                 q: "How do I cancel my subscription?",
@@ -81,7 +81,7 @@ const categories = [
             },
             {
                 q: "Is there a free trial?",
-                a: "Yes! The Explorer plan comes with a 7-day free trial. You can try all premium features before being charged."
+                a: "The annual Pro plan comes with a 7-day free trial. Cancel before it ends and you will not be charged. Monthly Pro and Lifetime have no trial."
             }
         ]
     }

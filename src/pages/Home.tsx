@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import { motion, useScroll, useTransform, useInView, useMotionValue, useSpring, AnimatePresence } from "framer-motion"
-import { Users, Calendar, Trophy, MapPin, Zap, Star, ArrowRight, ChevronRight, Award, Target, Swords } from "lucide-react"
+import { Users, Calendar, Trophy, Zap, Star, ArrowRight, ChevronRight, Target, Swords, MessageCircle } from "lucide-react"
 
 const screenshots = [
     { src: "/screens/slide_01_hero.png", label: "Home" },
@@ -18,52 +18,52 @@ const screenshots = [
 
 const features = [
     {
-        icon: Users,
-        title: "Squad Management",
-        description: "Create private squads, invite with a code, and manage your crew with skill-level tracking.",
+        icon: Target,
+        title: "Live Scoring",
+        description: "Full tennis rules, one tap a point, undo anything. Pro puts the score on your Lock Screen and Dynamic Island.",
         color: "from-primary/20 to-primary/5",
         iconColor: "text-primary",
-        screenshot: "/screens/slide_09_squad.png",
+        screenshot: "/screens/slide_05_play.png",
     },
     {
         icon: Calendar,
         title: "Smart Scheduling",
-        description: "Visual availability heatmap shows when players are free. One tap to set status, zero back-and-forth.",
-        color: "from-cyan/20 to-cyan/5",
-        iconColor: "text-cyan",
-        screenshot: "/screens/slide_05_play.png",
+        description: "See when your squad is free on the availability heatmap. One tap to set status, zero back-and-forth.",
+        color: "from-blue-500/20 to-blue-500/5",
+        iconColor: "text-blue-400",
+        screenshot: "/screens/slide_01_hero.png",
     },
     {
         icon: Trophy,
-        title: "Ladder Rankings",
-        description: "Challenge-based ladder system with real-time leaderboards. Win to climb, prove you're the best.",
-        color: "from-accent/20 to-accent/5",
-        iconColor: "text-accent-light",
-        screenshot: "/screens/slide_03_ladder.png",
+        title: "Team Leagues",
+        description: "Round robin, playoffs, champions. Standings that update themselves as scores come in.",
+        color: "from-amber-500/20 to-amber-500/5",
+        iconColor: "text-amber-400",
+        screenshot: "/screens/slide_06_teams.png",
     },
     {
         icon: Swords,
-        title: "Box League",
-        description: "Monthly round-robin competitions with divisions, automatic pairings, and promotion/relegation.",
-        color: "from-pink/20 to-pink/5",
-        iconColor: "text-pink",
+        title: "Ladder & Box League",
+        description: "Challenge-based rankings and monthly round-robin competitions with promotion and relegation.",
+        color: "from-purple-500/20 to-purple-500/5",
+        iconColor: "text-purple-400",
         screenshot: "/screens/slide_07_boxleague.png",
     },
     {
-        icon: MapPin,
-        title: "Nearby Discovery",
-        description: "Find players within 25 miles, join open matches, and expand your tennis network beyond your squad.",
-        color: "from-cyan/20 to-cyan/5",
-        iconColor: "text-cyan",
-        screenshot: "/screens/slide_02_discover.png",
+        icon: Zap,
+        title: "Serve Coach",
+        description: "Film a serve and get form analysis on device. Nothing is uploaded — it never leaves your phone.",
+        color: "from-cyan-500/20 to-cyan-500/5",
+        iconColor: "text-cyan-400",
+        screenshot: "/screens/slide_08_profile.png",
     },
     {
-        icon: Award,
-        title: "Badges & Challenges",
-        description: "Earn 12 unique badges, complete weekly challenges, and track streaks to stay motivated.",
-        color: "from-primary/20 to-primary/5",
-        iconColor: "text-primary",
-        screenshot: "/screens/slide_08_profile.png",
+        icon: MessageCircle,
+        title: "Squad Chat & Subs",
+        description: "Match and league threads, plus a one-tap “need a sub” broadcast. Replaces the group chat.",
+        color: "from-pink-500/20 to-pink-500/5",
+        iconColor: "text-pink-400",
+        screenshot: "/screens/slide_09_squad.png",
     },
 ]
 
@@ -258,7 +258,7 @@ export default function Home() {
                             >
                                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-light/60 border border-border text-sm text-text-muted mb-6">
                                     <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                                    Now available on the App Store
+                                    Coming soon to the App Store
                                 </div>
                             </motion.div>
 
@@ -279,7 +279,7 @@ export default function Home() {
                                 transition={{ duration: 0.8, delay: 0.4 }}
                                 className="text-lg md:text-xl text-text-muted max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed"
                             >
-                                Organize matches, discover players, compete on ladders, and climb the ranks with your local tennis community.
+                                Keep score courtside, run leagues and ladders, and get your squad playing more — without the group-chat chaos.
                             </motion.p>
 
                             <motion.div
@@ -289,7 +289,7 @@ export default function Home() {
                                 className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start"
                             >
                                 <a
-                                    href="https://apps.apple.com/us/app/tennissquad"
+                                    href="#notify"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-primary text-background font-bold rounded-xl hover:bg-primary-muted transition-all hover:shadow-xl hover:shadow-primary/20 active:scale-[0.97] text-base"
@@ -297,7 +297,7 @@ export default function Home() {
                                     <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                                         <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                                     </svg>
-                                    Download Free
+                                    Coming Soon
                                 </a>
                                 <Link
                                     to="/features"
@@ -574,10 +574,9 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-5 md:px-8 relative z-10">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
                         {[
-                            { value: 5000, suffix: "+", label: "Matches Organized" },
-                            { value: 500, suffix: "+", label: "Active Squads" },
-                            { value: 50, suffix: "+", label: "Cities" },
                             { value: 12, suffix: "", label: "Badges to Earn" },
+                            { value: 8, suffix: "", label: "Pro Features" },
+                            { value: 0, suffix: "", label: "Data Sold, Ever" },
                         ].map((stat, i) => (
                             <FadeInSection key={i} delay={i * 0.1} className="text-center">
                                 <div className="text-4xl md:text-5xl font-black gradient-text-warm mb-2">
@@ -634,9 +633,9 @@ export default function Home() {
 
                     <div className="grid md:grid-cols-3 gap-5">
                         {[
-                            { quote: "Finally, an app that actually helps me play more tennis instead of just chatting about it!", author: "Sarah K.", role: "Club Player", rating: 5 },
-                            { quote: "Our club ladder has never been more active. The competitive element keeps everyone engaged.", author: "Mike T.", role: "Club Organizer", rating: 5 },
-                            { quote: "Found 3 new hitting partners in my first week. The nearby discovery feature is a game-changer.", author: "James R.", role: "Competitive Player", rating: 5 },
+                            { quote: "Built by a player who got tired of running a squad from a spreadsheet and a group chat.", author: "Why it exists", role: "From the maker", rating: 5 },
+                            { quote: "Serve Coach analyzes your form entirely on your phone. Your video is never uploaded.", author: "Privacy first", role: "On-device analysis", rating: 5 },
+                            { quote: "One Pro plan. No organizer tier, no per-seat pricing, no ads.", author: "Simple pricing", role: "Free to start", rating: 5 },
                         ].map((t, i) => (
                             <FadeInSection key={i} delay={i * 0.15}>
                                 <div className="h-full p-6 rounded-2xl bg-surface border border-border hover:border-border-light transition-all duration-300">
@@ -694,7 +693,7 @@ export default function Home() {
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
-                                href="https://apps.apple.com/us/app/tennissquad"
+                                href="#notify"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-background font-bold rounded-xl hover:bg-primary-muted transition-all hover:shadow-xl hover:shadow-primary/25 active:scale-[0.97] text-lg"
@@ -702,7 +701,7 @@ export default function Home() {
                                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                                     <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                                 </svg>
-                                Download on App Store
+                                App Store — Coming Soon
                             </a>
                             <div className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-surface-light/40 border border-border text-text-muted font-semibold rounded-xl text-lg cursor-not-allowed opacity-60">
                                 Google Play — Coming Soon

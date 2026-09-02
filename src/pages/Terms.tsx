@@ -41,7 +41,7 @@ export default function Terms() {
                         </section>
                         <section>
                             <h2 className="text-xl font-bold text-text mb-3">5. Subscriptions</h2>
-                            <p>Paid subscriptions (Explorer, Lifetime) are billed through the respective App Store. Subscriptions auto-renew unless cancelled 24 hours before the end of the period.</p>
+                            <p>Paid plans (Pro monthly, Pro annual, Lifetime) are billed through the respective App Store. Subscriptions auto-renew unless cancelled 24 hours before the end of the period.</p>
                         </section>
                         <section>
                             <h2 className="text-xl font-bold text-text mb-3">6. Data & Privacy</h2>

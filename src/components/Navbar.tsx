@@ -82,7 +82,7 @@ export function Navbar() {
                     {/* CTA */}
                     <div className="hidden md:block">
                         <a
-                            href="https://apps.apple.com/us/app/tennissquad"
+                            href="#notify"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-background font-semibold text-sm rounded-xl hover:bg-primary-muted transition-all hover:shadow-lg hover:shadow-primary/20 active:scale-[0.97]"
@@ -138,7 +138,7 @@ export function Navbar() {
                                 className="pt-4"
                             >
                                 <a
-                                    href="https://apps.apple.com/us/app/tennissquad"
+                                    href="#notify"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-primary text-background font-semibold rounded-xl"
