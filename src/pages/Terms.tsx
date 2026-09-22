@@ -18,7 +18,7 @@ export default function Terms() {
                 <FadeIn>
                     <span className="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-3">Legal</span>
                     <h1 className="text-4xl font-black mb-4">Terms of Service</h1>
-                    <p className="text-text-muted mb-12">Last updated: February 16, 2026</p>
+                    <p className="text-text-muted mb-12">Last updated: September 22, 2026</p>
                 </FadeIn>
 
                 <FadeIn>
@@ -36,8 +36,17 @@ export default function Terms() {
                             <p>You must be at least 13 years old to use TennisSquad. If you are under 18, you must have parental consent.</p>
                         </section>
                         <section>
-                            <h2 className="text-xl font-bold text-text mb-3">4. User Conduct</h2>
-                            <p>You agree NOT to use the App for unlawful purposes, harass others, or violate applicable laws.</p>
+                            <h2 className="text-xl font-bold text-text mb-3">4. User Conduct and Objectionable Content</h2>
+                            <p className="font-semibold text-text">TennisSquad has zero tolerance for objectionable content and for abusive users. This is a condition of using the App, not a guideline.</p>
+                            <p className="mt-3">You agree NOT to:</p>
+                            <ul className="list-disc pl-5 mt-2 space-y-1">
+                                <li>Post, send or share objectionable content, including content that is harassing, threatening, hateful, sexually explicit, violent, defamatory, or that targets a person or group on the basis of race, ethnicity, religion, gender, sexual orientation, disability or nationality</li>
+                                <li>Harass, abuse, bully, stalk, intimidate or harm other users</li>
+                                <li>Impersonate any person or entity</li>
+                                <li>Use the App for any unlawful purpose</li>
+                                <li>Violate any applicable laws or regulations</li>
+                            </ul>
+                            <p className="mt-3">Every message from another player can be reported using the "..." control on the message. You may block any user from the same control; blocking removes their messages from your view immediately. Reports are reviewed by a person and acted on within 24 hours. We remove objectionable content and terminate the accounts of users who post it or who behave abusively.</p>
                         </section>
                         <section>
                             <h2 className="text-xl font-bold text-text mb-3">5. Subscriptions</h2>
