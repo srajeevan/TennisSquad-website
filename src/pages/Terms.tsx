@@ -62,7 +62,7 @@ export default function Terms() {
                         </section>
                         <section className="pt-6 border-t border-border">
                             <h2 className="text-xl font-bold text-text mb-3">Contact Us</h2>
-                            <p>For questions about these Terms: <a href="mailto:legal@tennissquad.app" className="text-primary hover:underline">legal@tennissquad.app</a></p>
+                            <p>For questions about these Terms: <a href="mailto:support@tennissquad.app" className="text-primary hover:underline">support@tennissquad.app</a></p>
                         </section>
                     </div>
                 </FadeIn>

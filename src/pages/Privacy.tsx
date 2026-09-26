@@ -51,7 +51,7 @@ export default function Privacy() {
                         </section>
                         <section className="pt-6 border-t border-border">
                             <h2 className="text-xl font-bold text-text mb-3">Contact Us</h2>
-                            <p>For privacy questions: <a href="mailto:privacy@tennissquad.app" className="text-primary hover:underline">privacy@tennissquad.app</a></p>
+                            <p>For privacy questions: <a href="mailto:support@tennissquad.app" className="text-primary hover:underline">support@tennissquad.app</a></p>
                         </section>
                     </div>
                 </FadeIn>
