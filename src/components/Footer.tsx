@@ -67,7 +67,7 @@ export function Footer() {
                         <a href="#" className="p-2 rounded-lg text-text-dark hover:text-primary hover:bg-surface-light transition-all">
                             <Instagram className="h-4 w-4" />
                         </a>
-                        <a href="mailto:hello@tennissquad.app" className="p-2 rounded-lg text-text-dark hover:text-primary hover:bg-surface-light transition-all">
+                        <a href="mailto:support@tennissquad.app" className="p-2 rounded-lg text-text-dark hover:text-primary hover:bg-surface-light transition-all">
                             <Mail className="h-4 w-4" />
                         </a>
                     </div>

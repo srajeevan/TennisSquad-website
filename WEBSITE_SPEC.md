@@ -549,7 +549,7 @@ We may update these Terms from time to time. We will notify you of material chan
 17. CONTACT US
 
 For questions about these Terms:
-Email: legal@tennissquad.app
+Email: support@tennissquad.app
 Address: [Your Business Address]
 
 By using TennisSquad, you acknowledge that you have read, understood, and agree to these Terms of Service.
@@ -689,7 +689,7 @@ California residents have additional rights under the CCPA:
 - Right to opt-out of sale (we don't sell data)
 - Right to non-discrimination
 
-To exercise these rights, contact privacy@tennissquad.app.
+To exercise these rights, contact support@tennissquad.app.
 
 10. EUROPEAN PRIVACY RIGHTS (GDPR)
 
@@ -703,7 +703,7 @@ EU/EEA residents have rights including:
 
 Legal basis for processing: Contract performance, legitimate interests, consent.
 
-To exercise these rights, contact privacy@tennissquad.app.
+To exercise these rights, contact support@tennissquad.app.
 
 11. CHANGES TO THIS POLICY
 
@@ -713,11 +713,11 @@ We may update this Privacy Policy periodically. We will notify you of material c
 
 For privacy questions or concerns:
 
-Email: privacy@tennissquad.app
+Email: support@tennissquad.app
 Address: [Your Business Address]
 
 Data Protection Officer (if applicable):
-Email: dpo@tennissquad.app
+Email: support@tennissquad.app
 
 For complaints, you may also contact your local data protection authority.
 
@@ -832,7 +832,7 @@ Email support@tennissquad.app with:
 Email us at support@tennissquad.app. We typically respond within 24 hours.
 
 **How do I give feedback?**
-We love feedback! Email feedback@tennissquad.app or use the in-app Help section.
+We love feedback! Email support@tennissquad.app or use the in-app Help section.
 
 **Is there a community or forum?**
 Not yet, but we're considering it! For now, reach out via email or social media.
@@ -854,18 +854,18 @@ Not yet, but we're considering it! For now, reach out via email or social media.
    - Response time: Within 24 hours
 
 2. **Bug Reports**
-   - Email: bugs@tennissquad.app
+   - Email: support@tennissquad.app
    - Please include device info and screenshots
 
 3. **Feedback & Suggestions**
-   - Email: feedback@tennissquad.app
+   - Email: support@tennissquad.app
    - We read every message!
 
 4. **Business Inquiries**
-   - Email: hello@tennissquad.app
+   - Email: support@tennissquad.app
 
 5. **Legal/Privacy**
-   - Email: legal@tennissquad.app
+   - Email: support@tennissquad.app
 
 **Social Media (if applicable):**
 - Twitter: @tennissquadapp
@@ -1014,8 +1014,8 @@ Join thousands of players organizing matches, climbing ladders, and finding new 
 1. **Domain**: tennissquad.app (referenced in iOS app)
 2. **Email addresses used in app**:
    - support@tennissquad.app
-   - privacy@tennissquad.app
-   - legal@tennissquad.app
+   - support@tennissquad.app
+   - support@tennissquad.app
 3. **Links in iOS app point to**:
    - /terms
    - /privacy

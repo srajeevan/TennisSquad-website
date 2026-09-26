@@ -66,7 +66,7 @@ export default function Support() {
 
                         <FadeIn delay={0.2}>
                             <a
-                                href="mailto:hello@tennissquad.app"
+                                href="mailto:support@tennissquad.app"
                                 className="block p-6 rounded-2xl bg-surface border border-border hover:border-accent/30 transition-all duration-300 hover:-translate-y-1 text-center group"
                             >
                                 <div className="inline-flex p-3 rounded-xl bg-accent/10 mb-4 group-hover:scale-110 transition-transform">
@@ -74,7 +74,7 @@ export default function Support() {
                                 </div>
                                 <h3 className="font-bold mb-2">Feedback</h3>
                                 <p className="text-text-muted text-sm mb-3">Share ideas to help us improve.</p>
-                                <span className="text-accent-light text-sm font-medium">hello@tennissquad.app</span>
+                                <span className="text-accent-light text-sm font-medium">support@tennissquad.app</span>
                             </a>
                         </FadeIn>
                     </div>
