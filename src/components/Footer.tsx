@@ -32,7 +32,7 @@ export function Footer() {
                         <ul className="space-y-3 text-sm text-text-muted">
                             <li><Link to="/features" className="hover:text-primary transition-colors">Features</Link></li>
                             <li><Link to="/pricing" className="hover:text-primary transition-colors">Pricing</Link></li>
-                            <li><a href="#notify" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Download</a></li>
+                            <li><a href="https://apps.apple.com/app/id6758974073" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Download</a></li>
                         </ul>
                     </div>
 

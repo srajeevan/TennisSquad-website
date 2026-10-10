@@ -37,7 +37,7 @@ const plans = [
             "Squad chat & “need a sub”",
             "Your last 10 matches",
         ],
-        cta: "Coming Soon",
+        cta: "Get the App",
         featured: false,
     },
     {
@@ -60,7 +60,7 @@ const plans = [
             "Unlimited AI league planning",
             "Import a season from a spreadsheet",
         ],
-        cta: "Coming Soon",
+        cta: "Get the App",
         featured: true,
     },
     {
@@ -76,7 +76,7 @@ const plans = [
             "No renewals, ever",
             "All future Pro features included",
         ],
-        cta: "Coming Soon",
+        cta: "Get the App",
         featured: false,
     },
 ]
@@ -172,7 +172,7 @@ export default function Pricing() {
                                     </div>
 
                                     <a
-                                        href="#notify"
+                                        href="https://apps.apple.com/app/id6758974073"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className={`flex items-center justify-center w-full py-3 rounded-xl font-semibold text-sm transition-all active:scale-[0.97] ${

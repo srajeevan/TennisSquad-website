@@ -244,7 +244,7 @@ export default function Features() {
                         <h2 className="text-3xl md:text-4xl font-black mb-6">Ready to upgrade your game?</h2>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
-                                href="#notify"
+                                href="https://apps.apple.com/app/id6758974073"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-primary text-background font-bold rounded-xl hover:bg-primary-muted transition-all hover:shadow-lg hover:shadow-primary/20 active:scale-[0.97]"
