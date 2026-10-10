@@ -29,7 +29,7 @@ const categories = [
             },
             {
                 q: "Is TennisSquad free?",
-                a: "Yes! The free plan includes all core features: match scheduling, availability tracking, ladder rankings, weekly challenges, and badges. Pro unlocks the live Lock Screen score, the Next Match widget, Apple Health logging, Tennis Wrapped, full match history, unlimited squads and leagues, AI league planning, and spreadsheet import."
+                a: "Yes! The free plan includes all core features: match scheduling, availability tracking, ladder rankings, weekly challenges, and badges. Pro unlocks the live Lock Screen score, the Next Match widget, Tennis Wrapped, full match history, unlimited squads and leagues, AI league planning, and spreadsheet import."
             },
             {
                 q: "How do I create a squad?",
@@ -69,7 +69,7 @@ const categories = [
         questions: [
             {
                 q: "What does the Pro plan include?",
-                a: "Pro is $6.99/month or $49.99/year (with a 7-day free trial on annual). It adds the live score on your Lock Screen and Dynamic Island, the Next Match widget, Apple Health logging, Tennis Wrapped, your complete match history, unlimited squads and concurrent leagues, unlimited AI league planning, and spreadsheet import.",
+                a: "Pro is $6.99/month or $49.99/year (with a 7-day free trial on annual). It adds the live score on your Lock Screen and Dynamic Island, the Next Match widget, Tennis Wrapped, your complete match history, unlimited squads and concurrent leagues, unlimited AI league planning, and spreadsheet import.",
             },
             {
                 q: "What is the Lifetime deal?",
