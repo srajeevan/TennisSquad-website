@@ -308,29 +308,6 @@ export default function Home() {
                                 </Link>
                             </motion.div>
 
-                            {/* Social proof mini */}
-                            <motion.div
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{ duration: 0.8, delay: 0.8 }}
-                                className="mt-10 flex items-center gap-6 justify-center lg:justify-start"
-                            >
-                                <div className="flex -space-x-2">
-                                    {[...Array(4)].map((_, i) => (
-                                        <div key={i} className="w-8 h-8 rounded-full bg-gradient-to-br from-surface-light to-surface border-2 border-background flex items-center justify-center text-xs font-bold text-text-muted">
-                                            {["SK", "MT", "JR", "AL"][i]}
-                                        </div>
-                                    ))}
-                                </div>
-                                <div className="text-sm">
-                                    <div className="flex items-center gap-1 text-primary">
-                                        {[...Array(5)].map((_, i) => (
-                                            <Star key={i} className="w-3.5 h-3.5 fill-primary" />
-                                        ))}
-                                    </div>
-                                    <span className="text-text-muted">Loved by players</span>
-                                </div>
-                            </motion.div>
                         </div>
 
                         {/* Right: Phone mockups */}
